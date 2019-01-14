@@ -1,0 +1,20 @@
+﻿<Window x:Class="Ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="InputTB" Height="83" Margin="174,41,174,0" TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox1" Margin="75,177,544,215"/>
+        <ComboBox x:Name="comboBox2" Margin="544,177,75,215"/>
+        <ComboBox x:Name="comboBox3" Margin="311,177,311,215"/>
+        <Button x:Name="button1" Margin="174,219,514,161" FontSize="15" Click="Decrypt_Click" FontWeight="Medium" Content="Decrypt"/>
+        <Button x:Name="button2" Margin="514,219,174,161" FontSize="15" Click="Encrypt_Click" FontWeight="Medium" Content="Encrypt"/>
+        <TextBox x:Name="OutputTB" HorizontalAlignment="Left" Height="79" Margin="174,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="444"/>
+        <TextBox x:Name="ivTB" HorizontalAlignment="Left" Height="23" Margin="204,140,0,0" TextWrapping="Wrap" Text="TextBox               " VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="keyTB" Height="23" Margin="468,140,204,0" TextWrapping="Wrap" Text="TextBox                            " VerticalAlignment="Top"/>
+    </Grid>
+</Window>

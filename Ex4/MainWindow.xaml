@@ -1,0 +1,20 @@
+﻿<Window x:Class="Ex4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="338.251" Width="576">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="tb" HorizontalAlignment="Left" Height="148" Margin="62,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="335"/>
+        <Button x:Name="Generate" Content="Generate keys" HorizontalAlignment="Left" Margin="431,48,0,0" VerticalAlignment="Top" Width="106" Click="button_Click" Height="40"/>
+        <Button Content="Encrypt" HorizontalAlignment="Left" Margin="431,104,0,0" VerticalAlignment="Top" Width="106" Height="38" Click="Button_Click_1"/>
+        <Button Content="Decrypt" HorizontalAlignment="Left" Margin="431,158,0,0" VerticalAlignment="Top" Width="106" Height="38" Click="Button_Click_2"/>
+        <Label x:Name="statusTxt" Content="" HorizontalAlignment="Left" Margin="193,211,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
