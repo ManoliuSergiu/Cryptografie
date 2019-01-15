@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="tb" HorizontalAlignment="Left" Height="148" Margin="62,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="335" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium quam at nibh iaculis, tempor porta quam interdum. Maecenas tincidunt in arcu non consequat. Pellentesque porttitor quam urna, eget pretium purus rhoncus quis. Suspendisse interdum ornare turpis, vel condimentum velit bibendum a. Nam ut suscipit odio. Donec blandit scelerisque tortor ac tristique. Sed ornare, odio ut pulvinar gravida, dolor purus posuere libero, et viverra nulla est in dolor. Sed sit amet odio tristique, imperdiet arcu a, pretium lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras aliquet mattis sapien ut maximus. Fusce quis tincidunt leo. Cras viverra, nisi nec fermentum varius, neque felis tincidunt mauris, eu tincidunt lacus arcu quis lacus. Praesent pharetra semper est, a efficitur orci luctus quis. Mauris at pharetra est, sed fermentum sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
+        <Button x:Name="Generate" Content="Generate keys" HorizontalAlignment="Left" Margin="431,48,0,0" VerticalAlignment="Top" Width="106" Click="button_Click" Height="40"/>
+        <Button Content="Encrypt" HorizontalAlignment="Left" Margin="431,104,0,0" VerticalAlignment="Top" Width="106" Height="38" Click="Button_Click_1"/>
+        <Button Content="Decrypt" HorizontalAlignment="Left" Margin="431,158,0,0" VerticalAlignment="Top" Width="106" Height="38" Click="Button_Click_2"/>
+        <Label x:Name="statusTxt" Content="" HorizontalAlignment="Left" Margin="193,211,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
